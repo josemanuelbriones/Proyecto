@@ -38,5 +38,13 @@
     "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",
     "webpack-cli": "^4.9.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josemanuelbriones/Proyecto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josemanuelbriones/Proyecto/issues"
+  },
+  "homepage": "https://github.com/josemanuelbriones/Proyecto#readme"
 }

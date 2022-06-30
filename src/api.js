@@ -9,8 +9,10 @@ const itemsCollection = collection(db, 'persona');
 //     return addDoc(itemsCollection, {name});
 // }
 
-export const Guardar= (obj) => {
-    return addDoc(itemsCollection, obj);
+export const Guardar= async(obj) => {
+    
+    const resul = await addDoc(itemsCollection, obj);
+    return 
 }
 export const Leer = async()=>{
     const result = await getDocs(query(itemsCollection));
